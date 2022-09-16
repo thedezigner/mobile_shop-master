@@ -19,13 +19,13 @@ $(document).ready(function(){
     }
   });
 
-  $('.side_view').click(function() {
+  $('.grid_view').click(function() {
     $('.list_product_wrap').removeClass('list');
-    $('.list_product_wrap').addClass('side');
+    $('.list_product_wrap').addClass('grid');
   });
 
   $('.list_view').click(function() {
-      $('.list_product_wrap').removeClass('side');
+      $('.list_product_wrap').removeClass('grid');
       $('.list_product_wrap').addClass('list');
   });
 

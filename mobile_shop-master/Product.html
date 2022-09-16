@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/23670ae08c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar_elem mt-4 d-flex align-items-center">
+                <div class="logo">
+                    <img src="Images/logo.png" alt="">
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="w-100 d-flex justify-content-between align-items-center">
+                    <ul class="main_menu d-lg-flex d-md-flex d-sm-flex">
+                        <li class="mr-lg-5 mr-md-3"><a href="">HOME</a></li>
+                        <li class="mr-lg-5 mr-md-3"><a href="">IPHONE</a></li>
+                        <li class="mr-lg-5 mr-md-3"><a href="">IWATCHES</a></li>
+                        <li class="mr-lg-5 mr-md-3"><a href="">AIRPODS</a></li>
+                        <li class="mr-lg-5 mr-md-3"><a href="">ACCESORIES</a></li>
+                        <li class="mr-lg-5 mr-md-3"><a href="">ABOUT US</a></li>
+                    </ul>
+                    <ul class="icon_menu d-flex">
+                        <li class="ml-lg-4 ml-md-3">
+                            <a href="">
+                                <img src="Images/truck-fast.png" alt="">
+                            </a>
+                        </li>
+                        <li class="ml-lg-4 ml-md-3">
+                            <a href="">
+                                <img src="Images/bag-2.png" alt="">
+                                <div class="no_of_project">3</div>
+                            </a>
+                            <ul class="cart_hover">
+                                <li>
+                                    <a href="" class="d-flex cart_product_link">
+                                        <div class="cart_product_image">
+                                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                                        </div>
+                                        <div class="cart_pro_detail">
+                                            <div class="cart_product_cata">
+                                                iPhone
+                                            </div>
+                                            <div class="cart_product_heading">
+                                                Apple iPhone 13 Pro 
+                                                (128GB) - Sierra Blue
+                                            </div>
+                                            <div class="color_btn">
+                                                Sierra Blue
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex cart_product_link">
+                                        <div class="cart_product_image">
+                                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                                        </div>
+                                        <div class="cart_pro_detail">
+                                            <div class="cart_product_cata">
+                                                iPhone
+                                            </div>
+                                            <div class="cart_product_heading">
+                                                Apple iPhone 13 Pro 
+                                                (128GB) - Sierra Blue
+                                            </div>
+                                            <div class="color_btn">
+                                                Sierra Blue
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="buy_now_btn">Buy Now</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="ml-lg-4 ml-md-3"><a href=""><img src="Images/profile.png" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="mt-5 pt-5">
+        <div class="container">
+            <div class="product_page_wrap d-lg-flex d-md-block">
+                <div class="product_view w-50">
+                    <div class="tab-content" id="myTabContentColor">
+                        <div id="productIdBlue" class="tab-pane fade show active" role="tabpanel" aria-labelledby="productIdBlue-tab">
+                            <div class="tab-content" id="myTabContentBlue">
+                                <div class="tab-pane fade show active" id="iphone_rev" role="tabpanel" aria-labelledby="iphone_rev-tab">
+                                    <div class="Product_image_reveal">
+                                        <img src="Images/Products/iphoneBlue/i_phone11_reverse.png" alt="" class="img-fluid d-block w-75 m-auto">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="iphone_rev_ver" role="tabpanel" aria-labelledby="iphone_rev_ver-tab">
+                                    <div class="Product_image_reveal">
+                                        <img src="Images/Products/iphoneBlue/i_phone11_reverse_vertical.png" alt="" class="img-fluid d-block w-75 m-auto">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="iphone_straight" role="tabpanel" aria-labelledby="iphone_straight-tab">
+                                    <div class="Product_image_reveal">
+                                        <img src="Images/Products/iphoneBlue/i_phone11.png" alt="" class="img-fluid d-block w-75 m-auto">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="iphone_ver" role="tabpanel" aria-labelledby="iphone_ver-tab">
+                                    <div class="Product_image_reveal">
+                                        <img src="Images/Products/iphoneBlue/i_phone11_vertical.png" alt="" class="img-fluid d-block w-75 m-auto">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="nav nav-tabs border-0 d-flex prod_mult_img px-5 mx-5" id="myTab" role="tablist">
+                                <li class="nav-item w-25">
+                                    <a class="nav-link active px-4" id="iphone_rev-tab" data-toggle="tab" href="#iphone_rev" role="tab" aria-controls="iphone_rev" aria-selected="true">
+                                        <img src="Images/Products/iphoneBlue/i_phone11_reverse.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="nav-item w-25">
+                                    <a class="nav-link px-4" id="iphone_rev_ver-tab" data-toggle="tab" href="#iphone_rev_ver" role="tab" aria-controls="iphone_rev_ver" aria-selected="false">
+                                        <img src="Images/Products/iphoneBlue/i_phone11_reverse_vertical.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="nav-item w-25">
+                                    <a class="nav-link px-4" id="iphone_straight-tab" data-toggle="tab" href="#iphone_straight" role="tab" aria-controls="iphone_straight" aria-selected="false">
+                                        <img src="Images/Products/iphoneBlue/i_phone11.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="nav-item w-25">
+                                    <a class="nav-link px-4" id="iphone_ver-tab" data-toggle="tab" href="#iphone_ver" role="tab" aria-controls="iphone_ver" aria-selected="false">
+                                        <img src="Images/Products/iphoneBlue/i_phone11_vertical.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="productIdGreen" class="tab-pane fade" role="tabpanel" aria-labelledby="productIdGreen-tab">
+                            <div class="tab-content" id="myTabContentGreen">
+                                <div class="tab-pane fade show active" id="iphone_rev-g" role="tabpanel" aria-labelledby="iphone_rev-tab-g">
+                                    <div class="Product_image_reveal">
+                                        <img src="Images/Products/iphoneGreen/i_phone11_reverse_g.png" alt="" class="img-fluid d-block w-75 m-auto">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="iphone_rev_ver-g" role="tabpanel" aria-labelledby="iphone_rev_ver-tab-g">
+                                    <div class="Product_image_reveal">
+                                        <img src="Images/Products/iphoneGreen/i_phone11_reverse_vertical_g.png" alt="" class="img-fluid d-block w-75 m-auto">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="iphone_straight-g" role="tabpanel" aria-labelledby="iphone_straight-tab-g">
+                                    <div class="Product_image_reveal">
+                                        <img src="Images/Products/iphoneGreen/i_phone11_green.png" alt="" class="img-fluid d-block w-75 m-auto">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="iphone_ver-g" role="tabpanel" aria-labelledby="iphone_ver-tab-g">
+                                    <div class="Product_image_reveal">
+                                        <img src="Images/Products/iphoneGreen/i_phone11_vertical_g.png" alt="" class="img-fluid d-block w-75 m-auto">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="nav nav-tabs border-0 d-flex prod_mult_img px-5 mx-5" id="myTab" role="tablist">
+                                <li class="nav-item w-25">
+                                    <a class="nav-link active px-4" id="iphone_rev-tab-g" data-toggle="tab" href="#iphone_rev-g" role="tab" aria-controls="iphone_rev-g" aria-selected="true">
+                                        <img src="Images/Products/iphoneGreen/i_phone11_reverse_g.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="nav-item w-25">
+                                    <a class="nav-link px-4" id="iphone_rev_ver-tab-g" data-toggle="tab" href="#iphone_rev_ver-g" role="tab" aria-controls="iphone_rev_ver-g" aria-selected="false">
+                                        <img src="Images/Products/iphoneGreen/i_phone11_reverse_vertical_g.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="nav-item w-25">
+                                    <a class="nav-link px-4" id="iphone_straight-tab-g" data-toggle="tab" href="#iphone_straight-g" role="tab" aria-controls="iphone_straight-g" aria-selected="false">
+                                        <img src="Images/Products/iphoneGreen/i_phone11_green.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="nav-item w-25">
+                                    <a class="nav-link px-4" id="iphone_ver-tab-g" data-toggle="tab" href="#iphone_ver-g" role="tab" aria-controls="iphone_ver-g" aria-selected="false">
+                                        <img src="Images/Products/iphoneGreen/i_phone11_vertical_g.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_details_wrap w-50">
+                    <h1 class="product_heading w-50">Apple iPhone 13 (128GB) - Pink</h1>
+                    <div class="rating py-4">
+                        <i class="fa-solid fa-star added"></i>
+                        <i class="fa-solid fa-star added"></i>
+                        <i class="fa-solid fa-star added"></i>
+                        <i class="fa-solid fa-star added"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5 class="font-italic font-weight-light w-75">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </h5>
+                    <h2 class="price py-4 font-weight-bold">₹69,990.00</h2>
+                    <div class="shop_btn button_wrap text-white font-weight-medium">Shop Now</div>
+                    <ul class="nav nav-tabs border-0 d-flex align-items-center py-4" id="myTabColor" role="tablist">
+                        <li class="product_id_blue nav-item pr-3">
+                            <a class="nav-link active" id="productIdBlue-tab" data-toggle="tab" href="#productIdBlue" role="tab" aria-controls="productIdBlue" aria-selected="true" style="background-color: #023256;"></a>
+                        </li>
+                        <li class="product_id_green nav-item pr-3">
+                            <a class="nav-link" id="productIdGreen-tab" data-toggle="tab" href="#productIdGreen" role="tab" aria-controls="productIdGreen" aria-selected="true" style="background-color: #536152;"></a>
+                        </li>
+                    </ul>
+                    <div class="product_size_elem">
+                        <h4 class="pro_size">Size name: <span class="font-weight-bold">128 GB</span></h4>
+                        <div class="product_sizes d-lg-flex d-md-block pt-3 pb-4">
+                            <div class="product_detail_size mt-md-4 mr-4">
+                                <h5 class="product_ac_size text-center font-weight-bold px-5 py-3">128 GB</h5>
+                                <div class="product_size_wrap_detail py-3 text-center">
+                                    <h5 class="product_size_price">₹69,900</h5>
+                                    <div class="stock_detail">In stock</div>
+                                </div>
+                            </div>
+                            <div class="product_detail_size mt-md-4 mr-4">
+                                <h5 class="product_ac_size text-center font-weight-bold px-5 py-3">256 GB</h5>
+                                <div class="product_size_wrap_detail py-3 text-center">
+                                    <h5 class="product_size_price">₹79,900</h5>
+                                    <div class="stock_detail">In stock</div>
+                                </div>
+                            </div>
+                            <div class="product_detail_size mt-md-4 mr-4">
+                                <h5 class="product_ac_size text-center font-weight-bold px-5 py-3">1 TB</h5>
+                                <div class="product_size_wrap_detail py-3 text-center">
+                                    <h5 class="product_size_price">₹89,900</h5>
+                                    <div class="stock_detail">In stock</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_detail_elem pt-5">
+                        <h4 class="font-weight-bold pb-3"><span>Details</span></h4>
+                        <div class="product_detail_discription">
+                            <h5 class="d-flex pb-2">
+                                <div class="detail_heading w-50">Included component</div>
+                                <div class="detail_discription w-50">iPhone, USB-C to lightning cable</div>
+                            </h5>
+                            <h5 class="d-flex pb-2">
+                                <div class="detail_heading w-50">Brand</div>
+                                <div class="detail_discription w-50">Apple</div>
+                            </h5>
+                            <h5 class="d-flex pb-2">
+                                <div class="detail_heading w-50">Wireless carrier</div>
+                                <div class="detail_discription w-50">Unlocked for all carriers</div>
+                            </h5>
+                            <h5 class="d-flex pb-2">
+                                <div class="detail_heading w-50">Other camera features</div>
+                                <div class="detail_discription w-50">Front</div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="tech_detail_wrap product_detail_elem pt-5">
+                        <h4 class="font-weight-bold pb-3"><span>Technical Details</span></h4>
+                        <div class="product_detail_size mr-4 w-100 bg-white">
+                            <h5 class="product_ac_size font-weight-bold px-5 py-3">iPhone 13 Pro</h5>
+                            <div class="product_size_wrap_detail px-5 py-3 d-flex">
+                                <h5 class="product_size_price w-25">Display</h5>
+                                <h5 class="stock_detail w-75">6.1-inch (15.5 cm diagonal) Super Retina XDR 
+                                    display with ProMotion</h5>
+                            </div>
+                            <div class="product_size_wrap_detail px-5 py-3 d-flex">
+                                <h5 class="product_size_price w-25">Capacity</h5>
+                                <h5 class="stock_detail w-75">6.1-inch (15.5 cm diagonal) Super Retina XDR 
+                                    display with ProMotion</h5>
+                            </div>
+                            <div class="product_size_wrap_detail px-5 py-3 d-flex">
+                                <h5 class="product_size_price w-25">Splash, Water, 
+                                    and Dust Resistant</h5>
+                                <h5 class="stock_detail w-75">All-glass and surgical-grade stainless steel 
+                                    design, water and dust resistant (rated IP68)</h5>
+                            </div>
+                            <div class="product_size_wrap_detail px-5 py-3 d-flex">
+                                <h5 class="product_size_price w-25">Camera and Video</h5>
+                                <h5 class="stock_detail w-75">Triple 12MP cameras with Portrait mode, Depth 
+                                    Control, Portrait Lighting, Smart HDR 3, and 4K 
+                                    Dolby Vision HDR video up to 60 fps</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="our_categories">
+        <div class="container">
+            <h1 class="section_heading font-weight-bold text-center">
+                Related Products
+            </h1>
+            <div class="product_slider">
+                
+                <div class="multiple_cards d-flex flex-wrap">
+                    <div class="best_selling_card w-25">
+                        <div class="like">
+                            
+                        </div>
+                        <div class="product_image">
+                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                        </div>
+                        <div class="product_detail_main pb-4 px-4 d-flex justify-content-between align-items-center">
+                            <div class="product_details text-center w-100">
+                                <h6 class="product_subheading">
+                                    iPhones
+                                </h6>
+                                <h2 class="product_heading">
+                                    iPhones 11 Pro
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best_selling_card w-25">
+                        <div class="like">
+                            
+                        </div>
+                        <div class="product_image">
+                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                        </div>
+                        <div class="product_detail_main pb-4 px-4 d-flex justify-content-between align-items-center">
+                            <div class="product_details text-center w-100">
+                                <h6 class="product_subheading">
+                                    iPhones
+                                </h6>
+                                <h2 class="product_heading">
+                                    iPhones 11 Pro
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best_selling_card w-25">
+                        <div class="like">
+                            
+                        </div>
+                        <div class="product_image">
+                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                        </div>
+                        <div class="product_detail_main pb-4 px-4 d-flex justify-content-between align-items-center">
+                            <div class="product_details text-center w-100">
+                                <h6 class="product_subheading">
+                                    iPhones
+                                </h6>
+                                <h2 class="product_heading">
+                                    iPhones 11 Pro
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best_selling_card w-25">
+                        <div class="like">
+                            
+                        </div>
+                        <div class="product_image">
+                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                        </div>
+                        <div class="product_detail_main pb-4 px-4 d-flex justify-content-between align-items-center">
+                            <div class="product_details text-center w-100">
+                                <h6 class="product_subheading">
+                                    iPhones
+                                </h6>
+                                <h2 class="product_heading">
+                                    iPhones 11 Pro
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best_selling_card w-25">
+                        <div class="like">
+                            
+                        </div>
+                        <div class="product_image">
+                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                        </div>
+                        <div class="product_detail_main pb-4 px-4 d-flex justify-content-between align-items-center">
+                            <div class="product_details text-center w-100">
+                                <h6 class="product_subheading">
+                                    iPhones
+                                </h6>
+                                <h2 class="product_heading">
+                                    iPhones 11 Pro
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best_selling_card w-25">
+                        <div class="like">
+                            
+                        </div>
+                        <div class="product_image">
+                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                        </div>
+                        <div class="product_detail_main pb-4 px-4 d-flex justify-content-between align-items-center">
+                            <div class="product_details text-center w-100">
+                                <h6 class="product_subheading">
+                                    iPhones
+                                </h6>
+                                <h2 class="product_heading">
+                                    iPhones 11 Pro
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best_selling_card w-25">
+                        <div class="like">
+                            
+                        </div>
+                        <div class="product_image">
+                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                        </div>
+                        <div class="product_detail_main pb-4 px-4 d-flex justify-content-between align-items-center">
+                            <div class="product_details text-center w-100">
+                                <h6 class="product_subheading">
+                                    iPhones
+                                </h6>
+                                <h2 class="product_heading">
+                                    iPhones 11 Pro
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best_selling_card w-25">
+                        <div class="like">
+                            
+                        </div>
+                        <div class="product_image">
+                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                        </div>
+                        <div class="product_detail_main pb-4 px-4 d-flex justify-content-between align-items-center">
+                            <div class="product_details text-center w-100">
+                                <h6 class="product_subheading">
+                                    iPhones
+                                </h6>
+                                <h2 class="product_heading">
+                                    iPhones 11 Pro
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="instagram_images">
+        <div class="container">
+            <h1 class="section_heading font-weight-bold text-center">
+                Instagram
+            </h1>
+        </div>
+        <div class="insta_post_slider">
+            <div class="instagram_post">
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="insta_post_image">
+                        <img src="Images/i_watch_series.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer_main_wrap d-lg-flex justify-content-between text-white">
+                <div class="company_detials">
+                    <div class="logo">
+                        <img src="Images/Logo.png" alt="">
+                    </div>
+                    <h6 class="company_discr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur amet pellentesque quisque et lacinia aliquet.</h6>
+                </div>
+                <h6 class="footer_menu px-lg-4 py-lg-4 font-weight-bold mb-4 d-lg-flex">
+                    <ul class="mx-lg-5 mt-md-5 font-weight-medium">
+                        <li class="menu_heading font-weight-bold">Useful Links</li>
+                        <li><a href="">Terms & Condition</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Refund Policy</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">About Us</a></li>
+                    </ul>
+                    <ul class="mx-lg-5 mt-md-5 font-weight-medium">
+                        <li class="menu_heading font-weight-bold">Accesories</li>
+                        <li><a href="">Mobile phones</a></li>
+                        <li><a href="">Airpods</a></li>
+                        <li><a href="">iWatch</a></li>
+                        <li><a href="">iPhone</a></li>
+                    </ul>
+                    <ul class="mx-lg-5 mt-md-5 font-weight-medium">
+                        <li class="menu_heading font-weight-bold">Menu</li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Privacypolicy</a></li>
+                        <li><a href="">Return policy</a></li>
+                    </ul>
+                </h6>
+                <div class="mobile_app_links">
+                    <h4 class="mobile_app_heading">
+                        Experience Our App on Mobile
+                    </h4>
+                    <div class="mobile_app_oss d-flex justify-content-between">
+                        <img src="Images/Google_play.png" alt="" class="andriod">
+                        <img src="Images/App_store.png" alt="" class="ios">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>

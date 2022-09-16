@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/23670ae08c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar_elem mt-4 d-flex align-items-center">
+                <div class="logo">
+                    <img src="Images/logo.png" alt="">
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="w-100 d-flex justify-content-between align-items-center">
+                    <ul class="main_menu d-lg-flex d-md-flex d-sm-flex">
+                        <li class="mr-lg-5 mr-md-3"><a href="">HOME</a></li>
+                        <li class="mr-lg-5 mr-md-3"><a href="">IPHONE</a></li>
+                        <li class="mr-lg-5 mr-md-3"><a href="">IWATCHES</a></li>
+                        <li class="mr-lg-5 mr-md-3"><a href="">AIRPODS</a></li>
+                        <li class="mr-lg-5 mr-md-3"><a href="">ACCESORIES</a></li>
+                        <li class="mr-lg-5 mr-md-3"><a href="">ABOUT US</a></li>
+                    </ul>
+                    <ul class="icon_menu d-flex">
+                        <li class="ml-lg-4 ml-md-3">
+                            <a href="">
+                                <img src="Images/truck-fast.png" alt="">
+                            </a>
+                        </li>
+                        <li class="ml-lg-4 ml-md-3">
+                            <a href="">
+                                <img src="Images/bag-2.png" alt="">
+                                <div class="no_of_project">3</div>
+                            </a>
+                            <ul class="cart_hover">
+                                <li>
+                                    <a href="" class="d-flex cart_product_link">
+                                        <div class="cart_product_image">
+                                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                                        </div>
+                                        <div class="cart_pro_detail">
+                                            <div class="cart_product_cata">
+                                                iPhone
+                                            </div>
+                                            <div class="cart_product_heading">
+                                                Apple iPhone 13 Pro 
+                                                (128GB) - Sierra Blue
+                                            </div>
+                                            <div class="color_btn">
+                                                Sierra Blue
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex cart_product_link">
+                                        <div class="cart_product_image">
+                                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                                        </div>
+                                        <div class="cart_pro_detail">
+                                            <div class="cart_product_cata">
+                                                iPhone
+                                            </div>
+                                            <div class="cart_product_heading">
+                                                Apple iPhone 13 Pro 
+                                                (128GB) - Sierra Blue
+                                            </div>
+                                            <div class="color_btn">
+                                                Sierra Blue
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="buy_now_btn">Buy Now</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="ml-lg-4 ml-md-3"><a href=""><img src="Images/profile.png" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="cart_elem">
+        <div class="container">
+            <h1 class="heading font-weight-bold mb-4">Shopping cart</h1>
+            <div class="cart_elem_wrap d-flex mt-4">
+                <div id="accordion" class="accordion_elem w-75">
+                    <div class="card acc_card_elem p-4 d-flex flex-row">
+                      <div class="acc_no d-flex justify-content-center align-items-center mr-4 font-weight-bold">1</div>
+                      <div class="card_conte_main_elem w-100">
+                        <div class="card-header bg-white border-0">
+                            <div class="mb-0 acc_head_elem_wrap d-flex justify-content-between align-items-center">
+                                <div class="acc_head_elem d-flex align-items-center">
+                                    <h6 class="acc_heading mr-4">Login</h6>
+                                    <div class="complete_icon"><img src="Images/tick-mark.png" alt=""></div>
+                                </div>
+                                <h6 class="change_btn">Change</h6>
+                            </div>
+                        </div>
+                        <div class="collapse show">
+                            <div class="card-body">
+                                <h6 class="card_content_heading font-weight-bold my-2">
+                                    Woodrow R. O'Neill
+                                </h6>
+                                <h6 class="card_content_discri">+91 9876543214</h6>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card acc_card_elem p-4 d-flex flex-row mt-4">
+                      <div class="acc_no d-flex justify-content-center align-items-center mr-4 font-weight-bold">2</div>
+                      <div class="card_conte_main_elem w-100">
+                        <div class="card-header bg-white border-0" id="headingTwo">
+                            <h6 class="mb-0 acc_head_elem_wrap" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Shipping address
+                            </h6>
+                        </div>
+
+                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <form class="mt-4">
+                                    <div class="d-lg-flex d-md-flex d-sm-flex">
+                                        <div class="form-group w-50 mr-4 small_input">
+                                            <label for="firstName">First name*</label>
+                                            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                                        </div>
+                                        <div class="form-group w-50 small_input">
+                                            <label for="lastName">Last name*</label>
+                                            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="d-lg-flex d-md-flex d-sm-flex">
+                                        <div class="form-group w-50 mr-4 small_input">
+                                            <label for="firstName">Address line 1*</label>
+                                            <input type="text" class="form-control" id="firstName" placeholder="Address">
+                                        </div>
+                                        <div class="form-group w-50 small_input">
+                                            <label for="lastName">Address line 2*</label>
+                                            <input type="text" class="form-control" id="lastName" placeholder="Address">
+                                        </div>
+                                    </div>
+                                    <div class="d-lg-flex d-md-flex d-sm-flex">
+                                        <div class="form-group w-50 mr-4 small_input">
+                                            <label for="firstName">City*</label>
+                                            <input type="text" class="form-control" id="firstName" placeholder="City">
+                                        </div>
+                                        <div class="form-group w-50 mr-4 small_input">
+                                            <label for="lastName">State*</label>
+                                            <input type="text" class="form-control" id="lastName" placeholder="State">
+                                        </div>
+                                        <div class="form-group w-50 small_input">
+                                            <label for="lastName">Pincode*</label>
+                                            <input type="text" class="form-control" id="lastName" placeholder="Pincode">
+                                        </div>
+                                    </div>
+                                    <div class="button_elem_wrap d-lg-flex d-md-flex d-sm-block mt-4">
+                                        <div type="submit" class="shop_btn button_wrap text-white font-weight-medium">Save and Deliver here</div>
+                                        <div type="submit" class="shop_btn button_wrap bg-white">Cancel</div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card acc_card_elem p-4 d-flex flex-row mt-4">
+                      <div class="acc_no d-flex justify-content-center align-items-center mr-4 font-weight-bold">3</div>
+                      <div class="card_conte_main_elem w-100">
+                        <div class="card-header bg-white border-0" id="headingThree">
+                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Payment method
+                            </h6>
+                        </div>
+                        
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                <form class="mt-4">
+                                    <div class="card_detail d-flex">
+                                        <div class="payment_card_elem active position-relative mr-3">
+                                            <img src="Images/master-card.png" alt="">
+                                        </div>
+                                        <div class="payment_card_elem position-relative mr-3">
+                                            <img src="Images/visa-card.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group w-100 mr-4">
+                                        <label for="firstName">Card holder name*</label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="Card holder name">
+                                    </div>
+                                    <div class="d-lg-flex d-xs-block">
+                                        <div class="form-group card_holder_nm w-75 pr-lg-4 pr-md-0 pr-xs-0">
+                                            <label for="lastName">Card holder number*</label>
+                                            <input type="text" class="form-control" id="lastName" placeholder="1234 4567 8901 1542">
+                                        </div>
+                                        <div class="w-25 d-lg-flex d-md-flex d-sm-flex form_date_cvv">
+                                            <div class="form-group pr-4 w-50">
+                                                <label for="firstName">Date</label>
+                                                <input type="text" class="form-control" id="firstName" placeholder="10/25">
+                                            </div>
+                                            <div class="form-group w-50">
+                                                <label for="lastName">CVV</label>
+                                                <input type="text" class="form-control" id="lastName" placeholder="000">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="button_elem_wrap d-lg-flex d-md-flex d-sm-block mt-4">
+                                        <div type="submit" class="shop_btn button_wrap text-white font-weight-medium">Save and Deliver here</div>
+                                        <div type="submit" class="shop_btn button_wrap bg-white">Cancel</div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="your_order p-5 w-25">
+                    <h5 class="after_line pb-3">Your order</h5>
+                    <div class="order_product_elem after_line d-flex py-4">
+                        <div class="ord_product_image w-25">
+                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="" class="w-100 img-fluid">
+                        </div>
+                        <div class="ord_product_details w-75 ml-4">
+                            <div class="ord_prod_id pb-1">iPhone</div>
+                            <h6 class="ord_prod_name font-weight-bold">Apple iPhone 13 Pro (128GB) - Sierra Blue</h6>
+                            <h6 class="ord_pro_price font-weight-bold py-3">₹69,990.00</h6>
+                            <button class="small_btn">Sierra Blue</button>
+                        </div>
+                    </div>
+                    <div class="order_product_elem after_line d-flex py-4">
+                        <div class="ord_product_image w-25">
+                            <img src="Images/Products/iphoneBlue/i_phone11.png" alt="" class="w-100 img-fluid">
+                        </div>
+                        <div class="ord_product_details w-75 ml-4">
+                            <div class="ord_prod_id pb-1">iPhone</div>
+                            <h6 class="ord_prod_name font-weight-bold">Apple iPhone 13 Pro (128GB) - Sierra Blue</h6>
+                            <h6 class="ord_pro_price font-weight-bold py-3">₹69,990.00</h6>
+                            <button class="small_btn">Sierra Blue</button>
+                        </div>
+                    </div>
+                    <div class="total_count">
+                        <div class="amt_elem_wrap after_line py-4">
+                            <div class="amt_elem d-flex justify-content-between py-2">
+                                <h6 class="amt_text">Grand total</h6>
+                                <div class="amt_price font-weight-bold">₹69,990.00</div>
+                            </div>
+                            <div class="amt_elem d-flex justify-content-between py-2">
+                                <h6 class="amt_text">Delivery charge</h6>
+                                <div class="amt_price font-weight-bold">₹00.00</div>
+                            </div>
+                            <div class="amt_elem d-flex justify-content-between py-2">
+                                <h6 class="amt_text">Discount</h6>
+                                <div class="amt_price font-weight-bold">₹00.00</div>
+                            </div>
+                        </div>
+                        <div class="final_amt d-flex justify-content-between py-4">
+                            <h4 class="final_text">Final</h4>
+                            <div class="final_price font-weight-bold">₹69,990.00</div>
+                        </div>
+                        <div type="submit" class="shop_btn button_wrap text-white font-weight-medium w-100 text-center mt-2">Proceed to payment</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer_main_wrap d-lg-flex justify-content-between text-white">
+                <div class="company_detials">
+                    <div class="logo">
+                        <img src="Images/Logo.png" alt="">
+                    </div>
+                    <h6 class="company_discr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur amet pellentesque quisque et lacinia aliquet.</h6>
+                </div>
+                <h6 class="footer_menu px-lg-4 py-lg-4 font-weight-bold mb-4 d-lg-flex">
+                    <ul class="mx-lg-5 mt-md-5 font-weight-medium">
+                        <li class="menu_heading font-weight-bold">Useful Links</li>
+                        <li><a href="">Terms & Condition</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Refund Policy</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">About Us</a></li>
+                    </ul>
+                    <ul class="mx-lg-5 mt-md-5 font-weight-medium">
+                        <li class="menu_heading font-weight-bold">Accesories</li>
+                        <li><a href="">Mobile phones</a></li>
+                        <li><a href="">Airpods</a></li>
+                        <li><a href="">iWatch</a></li>
+                        <li><a href="">iPhone</a></li>
+                    </ul>
+                    <ul class="mx-lg-5 mt-md-5 font-weight-medium">
+                        <li class="menu_heading font-weight-bold">Menu</li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Privacypolicy</a></li>
+                        <li><a href="">Return policy</a></li>
+                    </ul>
+                </h6>
+                <div class="mobile_app_links">
+                    <h4 class="mobile_app_heading">
+                        Experience Our App on Mobile
+                    </h4>
+                    <div class="mobile_app_oss d-flex justify-content-between">
+                        <img src="Images/Google_play.png" alt="" class="andriod">
+                        <img src="Images/App_store.png" alt="" class="ios">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.autoplays').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.four_cards').slick({
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                breakpoint: 769,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+    });
+</script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
